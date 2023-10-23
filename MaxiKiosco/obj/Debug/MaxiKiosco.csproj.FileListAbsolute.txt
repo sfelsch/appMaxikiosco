@@ -1,0 +1,197 @@
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmProducto.resources
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\Users\javie\source\repos\MaxiKiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmProducto.resources
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\Users\usuario\Desktop\Repo economia\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmProducto.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaCliente.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaCliente.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmProducto.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Login.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Principal.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmPrincipal.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProveedor.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProductos.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formClientes.resources
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmCompras.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formClientes.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProductos.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProveedor.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmCompras.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmPrincipal.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Login.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaCliente.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmProducto.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Principal.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formClientes.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProductos.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProveedor.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmCompras.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmPrincipal.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Login.resources
+C:\programacion\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Principal.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formClientes.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProductos.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProveedor.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmCompras.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmPrincipal.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaCliente.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\Users\javie\OneDrive\Desktop\Facultad\Economia empresarial\AppMaxikiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.SuggestedBindingRedirects.cache
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.SuggestedBindingRedirects.cache
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formClientes.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProductos.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProveedor.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmCompras.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmPrincipal.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaCliente.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaUsuario.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmUsuario.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmLogin.resources
+C:\Users\javie\OneDrive\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmInventario.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaUsuario.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmInventario.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmUsuario.resources
+C:\Users\usuario\Desktop\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmLogin.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe.config
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.exe
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\MaxiKiosco.pdb
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.dll
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaUsuario.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmInventario.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmUsuario.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formClientes.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProductos.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formProveedor.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmCompras.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmPrincipal.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmLogin.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaCliente.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProducto.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaProvedor.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Properties.Resources.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.GenerateResource.cache
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CoreCompileInputs.cache
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.exe
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.pdb
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formFacturacion.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formSeleccionClienteFacturacion.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formFacturaB.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formFacturaA.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.FormContable.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formCuentas.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.AltaCuentas.resources
+C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formLibroDiario.resources
