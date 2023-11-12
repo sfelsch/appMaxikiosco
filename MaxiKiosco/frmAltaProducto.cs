@@ -21,6 +21,7 @@ namespace MaxiKiosco
         {
             InitializeComponent();
             lblTitulo.Text = "Nuevo Producto";
+            lblPorcentajeGanancia.Text = "0%";
         }
 
         public frmAltaProducto(Producto producto)
@@ -197,6 +198,16 @@ namespace MaxiKiosco
         private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
         {
             Helper.UnaComa(e, txtPrecio.Text);
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trbPorcentajeGanancia_ValueChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)

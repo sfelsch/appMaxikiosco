@@ -29,7 +29,7 @@ namespace MaxiKiosco
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formFacturaA));
             this.panel14 = new System.Windows.Forms.Panel();
             this.label26 = new System.Windows.Forms.Label();
@@ -83,15 +83,6 @@ namespace MaxiKiosco
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label32 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.lblDescuento = new System.Windows.Forms.Label();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label31 = new System.Windows.Forms.Label();
-            this.lblSubTotal = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
             this.label30 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
@@ -100,7 +91,6 @@ namespace MaxiKiosco
             this.btnVolver = new System.Windows.Forms.Button();
             this.label33 = new System.Windows.Forms.Label();
             this.txtAbonaCon = new System.Windows.Forms.TextBox();
-            this.btnImprimir = new System.Windows.Forms.Button();
             this.panel14.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -116,10 +106,6 @@ namespace MaxiKiosco
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel15.SuspendLayout();
-            this.panel16.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.panel18.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel20.SuspendLayout();
             this.SuspendLayout();
@@ -218,14 +204,14 @@ namespace MaxiKiosco
             this.dgvFactura.AllowUserToAddRows = false;
             this.dgvFactura.AllowUserToDeleteRows = false;
             this.dgvFactura.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvFactura.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvFactura.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvFactura.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFactura.Location = new System.Drawing.Point(2, 224);
             this.dgvFactura.Name = "dgvFactura";
@@ -674,95 +660,6 @@ namespace MaxiKiosco
             this.label1.TabIndex = 0;
             this.label1.Text = "Maxikiosco";
             // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.Black;
-            this.panel15.Controls.Add(this.label32);
-            this.panel15.Location = new System.Drawing.Point(80, 431);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(72, 15);
-            this.panel15.TabIndex = 30;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(5, 4);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(64, 9);
-            this.label32.TabIndex = 22;
-            this.label32.Text = "DESCUENTO";
-            // 
-            // panel16
-            // 
-            this.panel16.BackColor = System.Drawing.Color.White;
-            this.panel16.Controls.Add(this.lblDescuento);
-            this.panel16.Location = new System.Drawing.Point(80, 442);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(72, 31);
-            this.panel16.TabIndex = 29;
-            // 
-            // lblDescuento
-            // 
-            this.lblDescuento.AutoSize = true;
-            this.lblDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescuento.Location = new System.Drawing.Point(16, 7);
-            this.lblDescuento.Name = "lblDescuento";
-            this.lblDescuento.Size = new System.Drawing.Size(19, 20);
-            this.lblDescuento.TabIndex = 28;
-            this.lblDescuento.Text = "$";
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.Black;
-            this.panel17.Controls.Add(this.label29);
-            this.panel17.Location = new System.Drawing.Point(158, 431);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(72, 15);
-            this.panel17.TabIndex = 30;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(10, 4);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(54, 9);
-            this.label29.TabIndex = 31;
-            this.label29.Text = "SUBTOTAL";
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.White;
-            this.panel18.Controls.Add(this.label31);
-            this.panel18.Controls.Add(this.lblSubTotal);
-            this.panel18.Location = new System.Drawing.Point(158, 443);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(72, 31);
-            this.panel18.TabIndex = 29;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(4, 6);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(19, 20);
-            this.label31.TabIndex = 27;
-            this.label31.Text = "$";
-            // 
-            // lblSubTotal
-            // 
-            this.lblSubTotal.AutoSize = true;
-            this.lblSubTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubTotal.Location = new System.Drawing.Point(19, 6);
-            this.lblSubTotal.Name = "lblSubTotal";
-            this.lblSubTotal.Size = new System.Drawing.Size(19, 20);
-            this.lblSubTotal.TabIndex = 27;
-            this.lblSubTotal.Text = "$";
-            // 
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.Black;
@@ -851,32 +748,18 @@ namespace MaxiKiosco
             this.txtAbonaCon.Size = new System.Drawing.Size(100, 20);
             this.txtAbonaCon.TabIndex = 34;
             // 
-            // btnImprimir
-            // 
-            this.btnImprimir.Location = new System.Drawing.Point(87, 479);
-            this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(65, 14);
-            this.btnImprimir.TabIndex = 35;
-            this.btnImprimir.Text = "button1";
-            this.btnImprimir.UseVisualStyleBackColor = true;
-            // 
             // formFacturaA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(517, 528);
-            this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.label33);
             this.Controls.Add(this.txtAbonaCon);
             this.Controls.Add(this.btnConfirmarVenta);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel19);
             this.Controls.Add(this.panel20);
-            this.Controls.Add(this.panel17);
-            this.Controls.Add(this.panel18);
-            this.Controls.Add(this.panel15);
-            this.Controls.Add(this.panel16);
             this.Controls.Add(this.panel14);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel12);
@@ -925,14 +808,6 @@ namespace MaxiKiosco
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
             this.panel20.ResumeLayout(false);
@@ -995,24 +870,14 @@ namespace MaxiKiosco
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Button btnConfirmarVenta;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label lblTotalBruto;
-        private System.Windows.Forms.Label lblDescuento;
-        private System.Windows.Forms.Label lblSubTotal;
         private System.Windows.Forms.Label lblIva;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.TextBox txtAbonaCon;
-        private System.Windows.Forms.Button btnImprimir;
     }
 }

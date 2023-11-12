@@ -45,3 +45,9 @@ C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\CapaDo
 C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\CapaDominio\obj\Debug\CapaDominio.csproj.CoreCompileInputs.cache
 C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\CapaDominio\obj\Debug\CapaDominio.dll
 C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\CapaDominio\obj\Debug\CapaDominio.pdb
+C:\Users\cdt\Desktop\appMaxikiosco\CapaDominio\bin\Debug\CapaDominio.dll
+C:\Users\cdt\Desktop\appMaxikiosco\CapaDominio\bin\Debug\CapaDominio.pdb
+C:\Users\cdt\Desktop\appMaxikiosco\CapaDominio\obj\Debug\CapaDominio.csproj.AssemblyReference.cache
+C:\Users\cdt\Desktop\appMaxikiosco\CapaDominio\obj\Debug\CapaDominio.csproj.CoreCompileInputs.cache
+C:\Users\cdt\Desktop\appMaxikiosco\CapaDominio\obj\Debug\CapaDominio.dll
+C:\Users\cdt\Desktop\appMaxikiosco\CapaDominio\obj\Debug\CapaDominio.pdb

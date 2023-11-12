@@ -34,11 +34,7 @@ namespace MaxiKiosco
                 cmbRol.DataSource = negocio.listaRoles();
                 cmbRol.DisplayMember = "nombre";
                 cmbRol.ValueMember = "id";
-                if (usuario.Rol.Id == 2)
-                {
-                    cmbRol.SelectedIndex = 1;
-                    cmbRol.Enabled= false;
-                }
+               
                     
             }
             catch (Exception ex)

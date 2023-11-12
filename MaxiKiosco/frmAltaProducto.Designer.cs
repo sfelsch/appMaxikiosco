@@ -52,7 +52,11 @@ namespace MaxiKiosco
             this.button3 = new System.Windows.Forms.Button();
             this.btnMinimixar = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.trbPorcentajeGanancia = new System.Windows.Forms.TrackBar();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblPorcentajeGanancia = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPorcentajeGanancia)).BeginInit();
             this.SuspendLayout();
             // 
             // txtCategoria
@@ -114,18 +118,18 @@ namespace MaxiKiosco
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(495, 152);
+            this.label7.Location = new System.Drawing.Point(517, 199);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 21);
+            this.label7.Size = new System.Drawing.Size(113, 21);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Precio:";
+            this.label7.Text = "Precio venta:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(472, 199);
+            this.label8.Location = new System.Drawing.Point(546, 247);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 21);
             this.label8.TabIndex = 9;
@@ -164,7 +168,7 @@ namespace MaxiKiosco
             // txtPrecio
             // 
             this.txtPrecio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecio.Location = new System.Drawing.Point(575, 149);
+            this.txtPrecio.Location = new System.Drawing.Point(649, 199);
             this.txtPrecio.MaxLength = 10;
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(219, 27);
@@ -208,7 +212,7 @@ namespace MaxiKiosco
             this.cmbProvedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbProvedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbProvedor.FormattingEnabled = true;
-            this.cmbProvedor.Location = new System.Drawing.Point(576, 194);
+            this.cmbProvedor.Location = new System.Drawing.Point(650, 242);
             this.cmbProvedor.Name = "cmbProvedor";
             this.cmbProvedor.Size = new System.Drawing.Size(218, 29);
             this.cmbProvedor.TabIndex = 10;
@@ -216,7 +220,7 @@ namespace MaxiKiosco
             // txtPrecioProveedor
             // 
             this.txtPrecioProveedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecioProveedor.Location = new System.Drawing.Point(575, 107);
+            this.txtPrecioProveedor.Location = new System.Drawing.Point(649, 110);
             this.txtPrecioProveedor.MaxLength = 10;
             this.txtPrecioProveedor.Name = "txtPrecioProveedor";
             this.txtPrecioProveedor.Size = new System.Drawing.Size(219, 27);
@@ -228,7 +232,7 @@ namespace MaxiKiosco
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(426, 110);
+            this.label5.Location = new System.Drawing.Point(500, 113);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(130, 21);
             this.label5.TabIndex = 13;
@@ -243,9 +247,9 @@ namespace MaxiKiosco
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.btnMinimixar);
             this.panel1.Controls.Add(this.lblTitulo);
-            this.panel1.Location = new System.Drawing.Point(-23, 0);
+            this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(862, 59);
+            this.panel1.Size = new System.Drawing.Size(918, 59);
             this.panel1.TabIndex = 37;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
@@ -259,7 +263,7 @@ namespace MaxiKiosco
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(807, 7);
+            this.button1.Location = new System.Drawing.Point(840, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(49, 42);
             this.button1.TabIndex = 38;
@@ -275,7 +279,7 @@ namespace MaxiKiosco
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(752, 11);
+            this.button2.Location = new System.Drawing.Point(785, 11);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(49, 42);
             this.button2.TabIndex = 37;
@@ -325,12 +329,47 @@ namespace MaxiKiosco
             this.lblTitulo.TabIndex = 33;
             this.lblTitulo.Text = "label11";
             // 
+            // trbPorcentajeGanancia
+            // 
+            this.trbPorcentajeGanancia.LargeChange = 10;
+            this.trbPorcentajeGanancia.Location = new System.Drawing.Point(649, 155);
+            this.trbPorcentajeGanancia.Maximum = 300;
+            this.trbPorcentajeGanancia.Name = "trbPorcentajeGanancia";
+            this.trbPorcentajeGanancia.Size = new System.Drawing.Size(219, 45);
+            this.trbPorcentajeGanancia.TabIndex = 38;
+            this.trbPorcentajeGanancia.ValueChanged += new System.EventHandler(this.trbPorcentajeGanancia_ValueChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(425, 155);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(205, 21);
+            this.label6.TabIndex = 39;
+            this.label6.Text = "Porcentaje de ganancia:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // lblPorcentajeGanancia
+            // 
+            this.lblPorcentajeGanancia.AutoSize = true;
+            this.lblPorcentajeGanancia.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPorcentajeGanancia.ForeColor = System.Drawing.Color.White;
+            this.lblPorcentajeGanancia.Location = new System.Drawing.Point(890, 155);
+            this.lblPorcentajeGanancia.Name = "lblPorcentajeGanancia";
+            this.lblPorcentajeGanancia.Size = new System.Drawing.Size(0, 21);
+            this.lblPorcentajeGanancia.TabIndex = 40;
+            // 
             // frmAltaProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            this.ClientSize = new System.Drawing.Size(837, 492);
+            this.ClientSize = new System.Drawing.Size(920, 492);
+            this.Controls.Add(this.lblPorcentajeGanancia);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.trbPorcentajeGanancia);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtPrecioProveedor);
             this.Controls.Add(this.label5);
@@ -356,6 +395,7 @@ namespace MaxiKiosco
             this.Load += new System.EventHandler(this.frmAltaProducto_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPorcentajeGanancia)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -385,5 +425,8 @@ namespace MaxiKiosco
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnMinimixar;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.TrackBar trbPorcentajeGanancia;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblPorcentajeGanancia;
     }
 }

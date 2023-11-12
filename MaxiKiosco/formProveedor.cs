@@ -130,6 +130,13 @@ namespace MaxiKiosco
             }
         }
 
+        private void formProveedor_Load(object sender, EventArgs e)
+        {
+            txtFiltroProvedor.AutoCompleteCustomSource = Helper.CargarDatosProveedor();
+            txtFiltroProvedor.AutoCompleteMode = AutoCompleteMode.Suggest;
+            txtFiltroProvedor.AutoCompleteSource = AutoCompleteSource.CustomSource;
+        }
+
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             m = true; mx = e.X; my = e.Y;

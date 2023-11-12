@@ -51,7 +51,6 @@ namespace MaxiKiosco
             this.dgvResumenAsientos = new System.Windows.Forms.DataGridView();
             this.NumAsiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TotalAsiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibroDiario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResumenAsientos)).BeginInit();
@@ -263,8 +262,7 @@ namespace MaxiKiosco
             this.dgvResumenAsientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvResumenAsientos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.NumAsiento,
-            this.Fecha,
-            this.TotalAsiento});
+            this.Fecha});
             this.dgvResumenAsientos.Location = new System.Drawing.Point(407, 333);
             this.dgvResumenAsientos.Name = "dgvResumenAsientos";
             this.dgvResumenAsientos.RowHeadersVisible = false;
@@ -280,11 +278,6 @@ namespace MaxiKiosco
             // 
             this.Fecha.HeaderText = "Fecha";
             this.Fecha.Name = "Fecha";
-            // 
-            // TotalAsiento
-            // 
-            this.TotalAsiento.HeaderText = "TotalAsiento";
-            this.TotalAsiento.Name = "TotalAsiento";
             // 
             // formLibroDiario
             // 
@@ -339,6 +332,5 @@ namespace MaxiKiosco
         private System.Windows.Forms.DataGridView dgvResumenAsientos;
         private System.Windows.Forms.DataGridViewTextBoxColumn NumAsiento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TotalAsiento;
     }
 }

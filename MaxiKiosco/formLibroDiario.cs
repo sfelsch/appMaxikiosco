@@ -198,17 +198,9 @@ namespace MaxiKiosco
                 DataGridViewTextBoxCell cellFecha = new DataGridViewTextBoxCell();
                 cellFecha.Value = fechaFormateada;
 
-                // Calcula el total del asiento
-                decimal totalAsiento = totalDebe + totalHaber;
-
-                // Crear una celda para el total del asiento y asignarle el valor
-                DataGridViewTextBoxCell cellTotalAsiento = new DataGridViewTextBoxCell();
-                cellTotalAsiento.Value = totalAsiento;
-
                 // Agregar las celdas a la misma fila
                 nuevaFila.Cells.Add(cellNumAsiento);
                 nuevaFila.Cells.Add(cellFecha);
-                nuevaFila.Cells.Add(cellTotalAsiento);
 
                 // Agregar la fila al DataGridView de resumen
                 dgvResumenAsientos.Rows.Add(nuevaFila);

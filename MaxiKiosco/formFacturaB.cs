@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDominio;
 using CapaNegocio;
+using System.Drawing.Imaging;
 
 namespace MaxiKiosco
 {
@@ -123,8 +124,13 @@ namespace MaxiKiosco
                         datos.EjecutarAccion();
                         datos.CerrarConexion();
                     }
+                    DialogResult ventaRealizada = MessageBox.Show("Venta realizada exitosamente", "Venta realizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (ventaRealizada == DialogResult.OK)
+                    {
+                        System.Threading.Thread.Sleep(1000);
+                        CapturarFormulario();
+                    }
 
-                    MessageBox.Show("venta realizada exitosamente", "Venta realizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
                 {
@@ -133,5 +139,31 @@ namespace MaxiKiosco
             }
           
         }
+        private void CapturarFormulario()
+        {
+            // Obtener el tamaño del formulario
+            Size tamanoFormulario = this.Size;
+
+            // Crear un bitmap para almacenar la captura
+            Bitmap captura = new Bitmap(tamanoFormulario.Width, tamanoFormulario.Height);
+
+            // Crear un objeto Graphics para copiar la imagen del formulario en el bitmap
+            using (Graphics graficos = Graphics.FromImage(captura))
+            {
+                // Capturar la imagen del formulario
+                graficos.CopyFromScreen(this.Location.X, this.Location.Y, 0, 0, tamanoFormulario);
+            }
+
+            string nombreArchivo = $"factura_{clienteSeleccionado.CuilCuit}.png";
+
+            // Guardar la captura en un archivo
+            GuardarCaptura(captura, nombreArchivo);
+        }
+        private void GuardarCaptura(Bitmap captura, string nombreArchivo)
+        {
+            // Guardar la imagen en un formato específico (puedes cambiar el formato si lo deseas)
+            captura.Save(nombreArchivo, ImageFormat.Png);
+        }
+
     }
 }

@@ -34,7 +34,6 @@ namespace MaxiKiosco
             // Agregamos el evento CellBeginEdit para deshabilitar la edición en las demás columnas
             dgvListaCompra.CellBeginEdit += dgvListaCompra_CellBeginEdit;
 
-
         }
 
         private void crearTitulosTabla()
@@ -88,8 +87,6 @@ namespace MaxiKiosco
 
             }
 
-
-
         }
 
         private void dgvProductosProveedor_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -109,9 +106,6 @@ namespace MaxiKiosco
 
                 }
             }
-
-
-
 
         }
 
@@ -153,7 +147,7 @@ namespace MaxiKiosco
 
         private void dgvListaCompra_CellBeginEdit(object sender, DataGridViewCellCancelEventArgs e)
         {
-            if (e.ColumnIndex != 3 && e.ColumnIndex != 5)
+            if (e.ColumnIndex != 2 && e.ColumnIndex != 3 && e.ColumnIndex != 5)
             {
                 // Cancelamos la edición para las demás columnas
                 e.Cancel = true;
@@ -165,7 +159,7 @@ namespace MaxiKiosco
         {
          
             // Verificamos que estemos en la columna "Porcentaje" y que la edición haya finalizado
-            if ((e.ColumnIndex == 3 || e.ColumnIndex == 5) && e.RowIndex >= 0)
+            if ((e.ColumnIndex == 2 || e.ColumnIndex == 3 || e.ColumnIndex == 5) && e.RowIndex >= 0)
             {
                 // Obtener el valor de la celda de Porcentaje
                 if (decimal.TryParse(dgvListaCompra.Rows[e.RowIndex].Cells[3].Value?.ToString(), out decimal porcentaje))
@@ -196,11 +190,14 @@ namespace MaxiKiosco
                 {
                    
                     int idProducto = Convert.ToInt32(row.Cells["Id"].Value);
+                    decimal precioProveedor = Convert.ToDecimal(row.Cells["PrecioProducto"].Value);
                     int cantidadComprada = Convert.ToInt32(row.Cells["Cantidad"].Value);
                     decimal precioConPorcentaje=Convert.ToDecimal(row.Cells["PrecioFinal"].Value);
+                   
                     AccesoDatos datos = new AccesoDatos();
-                    datos.SetearConsulta("UPDATE PRODUCTO SET Cantidad = Cantidad + @cantidad, Precio=@Precio WHERE Id =@Id");
+                    datos.SetearConsulta("UPDATE PRODUCTO SET Cantidad = Cantidad + @cantidad,PrecioProveedor=@precioProveedor ,Precio=@Precio WHERE Id =@Id");
                     datos.SetearParametro("@cantidad", cantidadComprada);
+                    datos.SetearParametro("@precioProveedor", precioProveedor);
                     datos.SetearParametro("@Precio", precioConPorcentaje);
                     datos.SetearParametro("@Id", idProducto);
                     datos.EjecutarAccion();
@@ -208,6 +205,8 @@ namespace MaxiKiosco
                 }
 
                 MessageBox.Show("Productos comprados exitosamente.", "Compra realizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                cargarGrilla(provedor.Id);
             }
             catch (Exception ex)
             {

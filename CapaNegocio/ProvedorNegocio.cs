@@ -27,7 +27,7 @@ namespace CapaNegocio
                     auxiliar.Telefono = (int)datos.Lector["Telefono"];
                     auxiliar.Mail = (string)datos.Lector["Mail"];
                     auxiliar.Direccion = (string)datos.Lector["Direccion"];
-                    auxiliar.Cuit = (int)datos.Lector["Cuit"];
+                    auxiliar.Cuit = (string)datos.Lector["Cuit"];
                     auxiliar.Activo = (bool)datos.Lector["Activo"];
 
                     lista.Add(auxiliar);
@@ -52,7 +52,7 @@ namespace CapaNegocio
 
             try
             {
-                datos.SetearConsulta("insert into PROVEDOR VALUES(@nombre, @telefono, @mail, @direccion, @cuit, @activo)");
+                datos.SetearConsulta("insert into PROVEDOR VALUES(@nombre, @telefono, @mail, @direccion, @activo, @cuit)");
                 datos.SetearParametro("@nombre",nuevoProvedor.Nombre);
                 datos.SetearParametro("@telefono", nuevoProvedor.Telefono);
                 datos.SetearParametro("@mail", nuevoProvedor.Mail);

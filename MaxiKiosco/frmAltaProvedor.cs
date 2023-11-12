@@ -42,6 +42,15 @@ namespace MaxiKiosco
 
             ProvedorNegocio provedorNegocio = new ProvedorNegocio();
 
+            string cuit = txtCuit.Text;
+            bool validarEmpresa = Helper.CuilEmpresa(cuit);
+            bool esValido = Helper.ValidarCUIL(cuit);
+
+            if(esValido == true)
+            {
+
+            
+
             try
             {
                 if (provedor == null)
@@ -53,7 +62,7 @@ namespace MaxiKiosco
                 provedor.Telefono = int.Parse(txtTelefono.Text);
                 provedor.Mail = txtMail.Text;
                 provedor.Direccion = txtDireccion.Text;
-                provedor.Cuit = int.Parse(txtCuit.Text);
+                provedor.Cuit = txtCuit.Text;
                 provedor.Activo = true;
 
                 TextBox[] arrayTextbox = new TextBox[] { txtNombre, txtTelefono, txtMail, txtDireccion, txtCuit };
@@ -109,10 +118,17 @@ namespace MaxiKiosco
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Debe Completar todos los campos para dar el alta o modificacion a un proveedor");
+                    MessageBox.Show(ex.ToString());
+                //MessageBox.Show("Debe Completar todos los campos para dar el alta o modificacion a un proveedor");
 
+            }
+
+            }
+            else
+            {
+                MessageBox.Show("Cuit no es valido");
             }
         }
 

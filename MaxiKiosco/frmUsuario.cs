@@ -61,18 +61,13 @@ namespace MaxiKiosco
 
         private void btnAgregarClientes_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(usuario.NomUsuario))
-            {
-                frmAltaUsuario ventana = new frmAltaUsuario(usuario);
-                ventana.Show();
-                this.Close();
-            }
-            else
-            {
+            
                 frmAltaUsuario ventana = new frmAltaUsuario();
                 ventana.Show();
                 this.Close();
-            }
+            
+            
+                
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

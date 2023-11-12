@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDominio;
+using CapaNegocio;
 
 namespace MaxiKiosco
 {
@@ -30,7 +31,7 @@ namespace MaxiKiosco
                 lblUsuarioTipo.Text = "Vendedor";
             }
 
-
+            
 
         }
         public frmPrincipal()
@@ -132,6 +133,17 @@ namespace MaxiKiosco
             FormContable pantalla = new FormContable();
             pantalla.Show();
             this.Close();
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            if (Helper.Login.Rol.Nombre == "Vendedor")
+            {
+                btnProducto.Enabled = false;
+                btnProductos.Enabled = false;
+                btnAgregarUsuario.Enabled = false;
+                btnCompras.Enabled = false;
+            }
         }
 
         private void panel1_MouseUp(object sender, MouseEventArgs e)

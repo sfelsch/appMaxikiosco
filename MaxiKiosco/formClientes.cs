@@ -124,7 +124,9 @@ namespace MaxiKiosco
 
         private void formClientes_Load(object sender, EventArgs e)
         {
-           
+            txtFiltroCliente.AutoCompleteCustomSource = Helper.CargarDatosClientes();
+            txtFiltroCliente.AutoCompleteMode = AutoCompleteMode.Suggest;
+            txtFiltroCliente.AutoCompleteSource = AutoCompleteSource.CustomSource;
         }
 
         private void btnMinimixar_Click(object sender, EventArgs e)

@@ -116,5 +116,12 @@ namespace MaxiKiosco
             }
             
         }
+
+        private void formSeleccionClienteFacturacion_Load(object sender, EventArgs e)
+        {
+            txtFiltroCliente.AutoCompleteCustomSource = Helper.CargarDatosClientes();
+            txtFiltroCliente.AutoCompleteMode = AutoCompleteMode.Suggest;
+            txtFiltroCliente.AutoCompleteSource = AutoCompleteSource.CustomSource;
+        }
     }
 }

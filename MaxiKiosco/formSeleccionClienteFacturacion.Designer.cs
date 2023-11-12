@@ -235,6 +235,7 @@ namespace MaxiKiosco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formSeleccionClienteFacturacion";
             this.Text = "formSeleccionClienteFacturacion";
+            this.Load += new System.EventHandler(this.formSeleccionClienteFacturacion_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

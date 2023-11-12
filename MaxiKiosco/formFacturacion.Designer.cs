@@ -217,6 +217,7 @@ namespace MaxiKiosco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formFacturacion";
             this.Text = "formFacturacion";
+            
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();

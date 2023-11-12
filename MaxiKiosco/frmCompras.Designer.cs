@@ -69,7 +69,7 @@ namespace MaxiKiosco
             this.dgvProductosProveedor.Location = new System.Drawing.Point(107, 149);
             this.dgvProductosProveedor.Name = "dgvProductosProveedor";
             this.dgvProductosProveedor.RowHeadersVisible = false;
-            this.dgvProductosProveedor.Size = new System.Drawing.Size(562, 178);
+            this.dgvProductosProveedor.Size = new System.Drawing.Size(708, 178);
             this.dgvProductosProveedor.TabIndex = 0;
             this.dgvProductosProveedor.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvProductosProveedor_CellMouseDoubleClick);
             // 
@@ -103,7 +103,7 @@ namespace MaxiKiosco
             this.dgvListaCompra.Location = new System.Drawing.Point(107, 356);
             this.dgvListaCompra.Name = "dgvListaCompra";
             this.dgvListaCompra.RowHeadersVisible = false;
-            this.dgvListaCompra.Size = new System.Drawing.Size(562, 178);
+            this.dgvListaCompra.Size = new System.Drawing.Size(708, 178);
             this.dgvListaCompra.TabIndex = 3;
             this.dgvListaCompra.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.dgvListaCompra_CellBeginEdit);
             this.dgvListaCompra.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaCompra_CellEndEdit);
@@ -111,14 +111,14 @@ namespace MaxiKiosco
             // 
             // txtPrecioFinalCompra
             // 
-            this.txtPrecioFinalCompra.Location = new System.Drawing.Point(736, 400);
+            this.txtPrecioFinalCompra.Location = new System.Drawing.Point(853, 392);
             this.txtPrecioFinalCompra.Name = "txtPrecioFinalCompra";
             this.txtPrecioFinalCompra.Size = new System.Drawing.Size(100, 20);
             this.txtPrecioFinalCompra.TabIndex = 4;
             // 
             // btnAltaCompra
             // 
-            this.btnAltaCompra.Location = new System.Drawing.Point(736, 511);
+            this.btnAltaCompra.Location = new System.Drawing.Point(853, 503);
             this.btnAltaCompra.Name = "btnAltaCompra";
             this.btnAltaCompra.Size = new System.Drawing.Size(75, 23);
             this.btnAltaCompra.TabIndex = 6;
@@ -197,7 +197,7 @@ namespace MaxiKiosco
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(732, 376);
+            this.label2.Location = new System.Drawing.Point(849, 368);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 21);
             this.label2.TabIndex = 34;

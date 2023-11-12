@@ -99,7 +99,24 @@ namespace MaxiKiosco
         {
             ClienteNegocio clienteNegocio = new ClienteNegocio();
 
-            try
+            string cuit = txtCuilCuit.Text;
+
+
+           
+
+            if (!string.IsNullOrEmpty(cuit))
+            {
+
+            
+
+
+            if (txtDni.Text.Length == 8 && Helper.CompararDniYCuit(txtCuilCuit.Text, txtDni.Text))
+            {
+                bool verificarPersona = Helper.CuilPersona(cuit);
+                bool esValido = Helper.ValidarCUIL(cuit);
+                if (esValido == true && verificarPersona == true)
+                { 
+                    try
             {
                 if (cliente == null)
                     cliente = new Cliente();
@@ -174,6 +191,21 @@ namespace MaxiKiosco
             catch (Exception)
             {
 
+                MessageBox.Show("Debe Completar todos los campos para dar el alta o modificacion a un Cliente");
+            }
+        }
+                else
+                {
+                    MessageBox.Show("Cuit no es valido");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Cuit no es valido");
+            }
+            } 
+            else
+            {
                 MessageBox.Show("Debe Completar todos los campos para dar el alta o modificacion a un Cliente");
             }
         }
