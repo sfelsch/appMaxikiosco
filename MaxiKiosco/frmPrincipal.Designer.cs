@@ -34,8 +34,9 @@
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnFacturacion = new System.Windows.Forms.Button();
             this.btnCompras = new System.Windows.Forms.Button();
-            this.btnInventario = new System.Windows.Forms.Button();
+            this.btnContable = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnInventario = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -142,28 +143,28 @@
             this.btnCompras.UseVisualStyleBackColor = false;
             this.btnCompras.Click += new System.EventHandler(this.btnCompras_Click);
             // 
-            // btnInventario
+            // btnContable
             // 
-            this.btnInventario.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnInventario.FlatAppearance.BorderSize = 0;
-            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInventario.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInventario.ForeColor = System.Drawing.Color.White;
-            this.btnInventario.Image = ((System.Drawing.Image)(resources.GetObject("btnInventario.Image")));
-            this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInventario.Location = new System.Drawing.Point(25, 397);
-            this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(150, 53);
-            this.btnInventario.TabIndex = 5;
-            this.btnInventario.Text = "      Contable";
-            this.btnInventario.UseVisualStyleBackColor = false;
-            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
+            this.btnContable.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnContable.FlatAppearance.BorderSize = 0;
+            this.btnContable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnContable.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContable.ForeColor = System.Drawing.Color.White;
+            this.btnContable.Image = ((System.Drawing.Image)(resources.GetObject("btnContable.Image")));
+            this.btnContable.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnContable.Location = new System.Drawing.Point(25, 397);
+            this.btnContable.Name = "btnContable";
+            this.btnContable.Size = new System.Drawing.Size(150, 53);
+            this.btnContable.TabIndex = 5;
+            this.btnContable.Text = "      Contable";
+            this.btnContable.UseVisualStyleBackColor = false;
+            this.btnContable.Click += new System.EventHandler(this.btnContable_Click_1);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnCerrarSesion);
             this.groupBox1.Controls.Add(this.btnClientes);
             this.groupBox1.Controls.Add(this.btnInventario);
+            this.groupBox1.Controls.Add(this.btnContable);
             this.groupBox1.Controls.Add(this.btnProducto);
             this.groupBox1.Controls.Add(this.btnCompras);
             this.groupBox1.Controls.Add(this.btnProductos);
@@ -177,6 +178,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Menu";
             // 
+            // btnInventario
+            // 
+            this.btnInventario.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnInventario.FlatAppearance.BorderSize = 0;
+            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInventario.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventario.ForeColor = System.Drawing.Color.White;
+            this.btnInventario.Image = ((System.Drawing.Image)(resources.GetObject("btnInventario.Image")));
+            this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInventario.Location = new System.Drawing.Point(25, 466);
+            this.btnInventario.Name = "btnInventario";
+            this.btnInventario.Size = new System.Drawing.Size(152, 53);
+            this.btnInventario.TabIndex = 10;
+            this.btnInventario.Text = "      Inventario";
+            this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
+            // 
             // btnCerrarSesion
             // 
             this.btnCerrarSesion.BackColor = System.Drawing.Color.SteelBlue;
@@ -186,7 +204,7 @@
             this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
             this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(25, 468);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(153, 446);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
             this.btnCerrarSesion.Size = new System.Drawing.Size(152, 53);
             this.btnCerrarSesion.TabIndex = 9;
@@ -196,6 +214,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnCerrarSesion);
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Controls.Add(this.btnConfiguraciones);
@@ -239,7 +258,7 @@
             this.btnConfiguraciones.ForeColor = System.Drawing.Color.White;
             this.btnConfiguraciones.Image = ((System.Drawing.Image)(resources.GetObject("btnConfiguraciones.Image")));
             this.btnConfiguraciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfiguraciones.Location = new System.Drawing.Point(235, 435);
+            this.btnConfiguraciones.Location = new System.Drawing.Point(237, 377);
             this.btnConfiguraciones.Name = "btnConfiguraciones";
             this.btnConfiguraciones.Size = new System.Drawing.Size(178, 53);
             this.btnConfiguraciones.TabIndex = 11;
@@ -255,7 +274,7 @@
             this.btnAgregarUsuario.ForeColor = System.Drawing.Color.White;
             this.btnAgregarUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarUsuario.Image")));
             this.btnAgregarUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregarUsuario.Location = new System.Drawing.Point(38, 435);
+            this.btnAgregarUsuario.Location = new System.Drawing.Point(45, 377);
             this.btnAgregarUsuario.Name = "btnAgregarUsuario";
             this.btnAgregarUsuario.Size = new System.Drawing.Size(168, 53);
             this.btnAgregarUsuario.TabIndex = 10;
@@ -383,7 +402,7 @@
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnFacturacion;
         private System.Windows.Forms.Button btnCompras;
-        private System.Windows.Forms.Button btnInventario;
+        private System.Windows.Forms.Button btnContable;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Panel panel1;
@@ -398,5 +417,6 @@
         private System.Windows.Forms.Button btnAgregarUsuario;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnInventario;
     }
 }

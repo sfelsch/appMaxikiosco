@@ -28,7 +28,8 @@ namespace MaxiKiosco
             dgvFactura.Columns["Id"].Visible = false;
             dgvFactura.Columns.Add("Marca", "Detalle");
             dgvFactura.Columns.Add("Cantidad", "Cantidad");
-            dgvFactura.Columns.Add("Precio", "Precio");
+            dgvFactura.Columns.Add("Precio", "Precio Unitario");
+            dgvFactura.Columns.Add("Total", "Total");
             dgvFactura.Columns[1].Width = 200;
 
             lblNombre.Text = $"{clienteSeleccionado.Nombre} {clienteSeleccionado.Apellido}";
@@ -45,15 +46,18 @@ namespace MaxiKiosco
                     productoRow.Cells["Id"].Value,
                      productoRow.Cells["Marca"].Value,
                     productoRow.Cells["Cantidad"].Value,
+                    productoRow.Cells["Precio"].Value,
                     productoRow.Cells["PrecioFactura"].Value
 
                 );
             }
             decimal subTotalFacturaA = CalcularTotalFacturaB();
-            //decimal iva = subTotalFacturaA * 0.21m; // Calcula el 21% del subtotal
+            decimal iva = subTotalFacturaA * 0.21m; // Calcula el 21% del subtotal
             //decimal totalFacturaA = subTotalFacturaA + iva; // Calcula el total sumando el subtotal y el 21% de IVA
             //lblSubTotal.Text = subTotalFacturaA.ToString();
-            lblTotal.Text = subTotalFacturaA.ToString();
+            lblIva.Text = iva.ToString();
+            lblTotalBruto.Text= subTotalFacturaA.ToString();
+            lblTotal.Text = (subTotalFacturaA + iva).ToString();
         }
         private decimal CalcularTotalFacturaB()
         {
@@ -61,7 +65,7 @@ namespace MaxiKiosco
 
             foreach (DataGridViewRow row in dgvFactura.Rows)
             {
-                if (decimal.TryParse(row.Cells["Precio"].Value?.ToString(), out decimal subtotal))
+                if (decimal.TryParse(row.Cells["Total"].Value?.ToString(), out decimal subtotal))
                 {
                     totalFacturaB += subtotal;
                 }
@@ -175,5 +179,7 @@ namespace MaxiKiosco
             // Guardar la imagen en un formato específico (puedes cambiar el formato si lo deseas)
             captura.Save(nombreArchivo, ImageFormat.Png);
         }
+
+     
     }
 }

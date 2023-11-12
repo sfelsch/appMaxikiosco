@@ -176,7 +176,7 @@ namespace MaxiKiosco
                         
                         // Actualizar la celda correspondiente con el nuevo total
                         dgvListaCompra.Rows[e.RowIndex].Cells[6].Value = total;
-                        MessageBox.Show(total.ToString());
+                       
                     }
                 }
             }
@@ -193,15 +193,19 @@ namespace MaxiKiosco
                     decimal precioProveedor = Convert.ToDecimal(row.Cells["PrecioProducto"].Value);
                     int cantidadComprada = Convert.ToInt32(row.Cells["Cantidad"].Value);
                     decimal precioConPorcentaje=Convert.ToDecimal(row.Cells["PrecioFinal"].Value);
+                    string gananciaProducto = row.Cells["Porcentaje"].Value.ToString();
                    
                     AccesoDatos datos = new AccesoDatos();
-                    datos.SetearConsulta("UPDATE PRODUCTO SET Cantidad = Cantidad + @cantidad,PrecioProveedor=@precioProveedor ,Precio=@Precio WHERE Id =@Id");
+                    datos.SetearConsulta("UPDATE PRODUCTO SET Cantidad = Cantidad + @cantidad,PrecioProveedor=@precioProveedor ,Precio=@Precio, GananciaProducto = @gananciaProducto WHERE Id =@Id");
                     datos.SetearParametro("@cantidad", cantidadComprada);
                     datos.SetearParametro("@precioProveedor", precioProveedor);
                     datos.SetearParametro("@Precio", precioConPorcentaje);
                     datos.SetearParametro("@Id", idProducto);
+                    datos.SetearParametro("@gananciaProducto", gananciaProducto);
                     datos.EjecutarAccion();
                     datos.CerrarConexion();
+                    dgvListaCompra.Rows.Clear();
+
                 }
 
                 MessageBox.Show("Productos comprados exitosamente.", "Compra realizada", MessageBoxButtons.OK, MessageBoxIcon.Information);

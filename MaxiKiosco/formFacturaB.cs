@@ -28,7 +28,8 @@ namespace MaxiKiosco
             dgvFactura.Columns["Id"].Visible = false;
             dgvFactura.Columns.Add("Cantidad", "Cantidad");
             dgvFactura.Columns.Add("Marca", "Detalle");
-            dgvFactura.Columns.Add("Precio", "Precio");
+            dgvFactura.Columns.Add("Precio", "Precio Unitario");
+            dgvFactura.Columns.Add("Total", "Total");
             dgvFactura.Columns[1].Width = 200;
             // Llena los controles con los datos del cliente y los productos
             // lblCondicionIva.Text = clienteSeleccionado.CondicionIva;
@@ -39,17 +40,21 @@ namespace MaxiKiosco
             lblTelefono.Text = $"{clienteSeleccionado.Telefono}";
             lblCondicionIva.Text= $"{clienteSeleccionado.CondicionIva}";
             
-           
-
             // Llena el DataGridView dgvFactura con los productos del carrito
             foreach (DataGridViewRow productoRow in productosEnCarrito)
             {
+                decimal precioUnitario = Convert.ToDecimal(productoRow.Cells["Precio"].Value);
+                decimal ivaPorcentaje = 0.21m; // Cambiar según tu porcentaje de IVA
+                decimal precioConIVA = precioUnitario * (1 + ivaPorcentaje);
+                decimal cantidad = Convert.ToDecimal(productoRow.Cells["Cantidad"].Value);
+                decimal totalProducto = precioConIVA * cantidad;
                 dgvFactura.Rows.Add(
                     productoRow.Cells["Id"].Value,
                     productoRow.Cells["Cantidad"].Value,
                     productoRow.Cells["Marca"].Value,
-                    productoRow.Cells["PrecioFactura"].Value
-                    
+                    precioConIVA,
+                    totalProducto
+
                 );
             }
             decimal totalFacturaB = CalcularTotalFacturaB();
@@ -62,7 +67,7 @@ namespace MaxiKiosco
 
             foreach (DataGridViewRow row in dgvFactura.Rows)
             {
-                if (decimal.TryParse(row.Cells["Precio"].Value?.ToString(), out decimal subtotal))
+                if (decimal.TryParse(row.Cells["Total"].Value?.ToString(), out decimal subtotal))
                 {
                     totalFacturaB += subtotal;
                 }

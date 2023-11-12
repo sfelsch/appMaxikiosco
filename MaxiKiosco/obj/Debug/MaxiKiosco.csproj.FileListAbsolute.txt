@@ -229,3 +229,4 @@ C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.dll
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
+C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formInventario.resources

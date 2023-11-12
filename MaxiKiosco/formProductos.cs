@@ -46,7 +46,6 @@ namespace MaxiKiosco
             ProductoNegocio productoNegocio = new ProductoNegocio();
             listaProductos = productoNegocio.listarProducto();
             dgvProductos.DataSource = listaProductos;
-            dataGridView1.DataSource = listaProductos;
             ocultarColumnas();
 
         }
@@ -131,32 +130,7 @@ namespace MaxiKiosco
             txtFiltroProducto.AutoCompleteSource = AutoCompleteSource.CustomSource;
         }
 
-        private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-            for (int i = 0; i < dataGridView1.Rows.Count; i++)
-            {
-                int stockMinimo = Convert.ToInt32(dataGridView1.Rows[i].Cells["StockMinimo"].Value);
-                try
-                {
-                    if(e.Value.GetType() != typeof(System.DBNull))
-                    {
-                        if(this.dataGridView1.Columns[e.ColumnIndex].Name == "Cantidad")
-                        {
-                            if(Convert.ToInt32(e.Value) <= stockMinimo)
-                            {
-                                e.CellStyle.ForeColor = Color.Red;
-                                e.CellStyle.BackColor = Color.Orange;
-                            }
-                        }
-                    }
-                }
-                catch (Exception)
-                {
-
-                    throw;
-                }
-            }
-        }
+       
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {

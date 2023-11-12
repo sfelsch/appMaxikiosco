@@ -74,7 +74,6 @@ namespace MaxiKiosco
             dgvCarrito2.Columns.Add("Cantidad", "Cantidad");
             dgvCarrito2.Columns.Add("SubTotal", "SubTotal");
             dgvCarrito2.Columns["SubTotal"].Visible = false;
-            dgvCarrito2.Columns.Add("PrecioConIva", "I.V.A");
             dgvCarrito2.Columns.Add("PrecioFactura", "factura");
             // Agrega una columna de botones para eliminar filas
             DataGridViewButtonColumn deleteButtonColumn = new DataGridViewButtonColumn();
@@ -165,12 +164,12 @@ namespace MaxiKiosco
                     decimal.TryParse(row.Cells["Precio"].Value?.ToString(), out decimal precio))
                 {
                     decimal subtotal = cantidad * precio;
-                   
 
-                    decimal totalConIva = subtotal * 0.21m;
-                    decimal precioFactura = subtotal + totalConIva;
+
+
+                    decimal precioFactura = subtotal;
                   row.Cells["SubTotal"].Value = subtotal;
-                    row.Cells["PrecioConIva"].Value = totalConIva;
+                   
                     row.Cells["PrecioFactura"].Value = precioFactura;
                 }
             }

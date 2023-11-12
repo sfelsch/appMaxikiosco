@@ -116,7 +116,7 @@ namespace MaxiKiosco
             this.panel14.Controls.Add(this.label26);
             this.panel14.Location = new System.Drawing.Point(2, 431);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(72, 15);
+            this.panel14.Size = new System.Drawing.Size(124, 15);
             this.panel14.TabIndex = 28;
             // 
             // label26
@@ -124,11 +124,11 @@ namespace MaxiKiosco
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(1, 4);
+            this.label26.Location = new System.Drawing.Point(9, 4);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(71, 9);
+            this.label26.Size = new System.Drawing.Size(103, 9);
             this.label26.TabIndex = 21;
-            this.label26.Text = "TOTAL BRUTO";
+            this.label26.Text = "IMP. NETO GRABADO";
             // 
             // panel13
             // 
@@ -186,14 +186,14 @@ namespace MaxiKiosco
             this.panel11.Controls.Add(this.lblTotalBruto);
             this.panel11.Location = new System.Drawing.Point(2, 444);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(72, 31);
+            this.panel11.Size = new System.Drawing.Size(124, 31);
             this.panel11.TabIndex = 25;
             // 
             // lblTotalBruto
             // 
             this.lblTotalBruto.AutoSize = true;
             this.lblTotalBruto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalBruto.Location = new System.Drawing.Point(14, 5);
+            this.lblTotalBruto.Location = new System.Drawing.Point(45, 5);
             this.lblTotalBruto.Name = "lblTotalBruto";
             this.lblTotalBruto.Size = new System.Drawing.Size(19, 20);
             this.lblTotalBruto.TabIndex = 29;
@@ -664,9 +664,9 @@ namespace MaxiKiosco
             // 
             this.panel19.BackColor = System.Drawing.Color.Black;
             this.panel19.Controls.Add(this.label30);
-            this.panel19.Location = new System.Drawing.Point(237, 431);
+            this.panel19.Location = new System.Drawing.Point(132, 432);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(72, 15);
+            this.panel19.Size = new System.Drawing.Size(122, 15);
             this.panel19.TabIndex = 30;
             // 
             // label30
@@ -674,7 +674,7 @@ namespace MaxiKiosco
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(1, 4);
+            this.label30.Location = new System.Drawing.Point(29, 4);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(71, 9);
             this.label30.TabIndex = 32;
@@ -684,16 +684,16 @@ namespace MaxiKiosco
             // 
             this.panel20.BackColor = System.Drawing.Color.White;
             this.panel20.Controls.Add(this.lblIva);
-            this.panel20.Location = new System.Drawing.Point(237, 443);
+            this.panel20.Location = new System.Drawing.Point(132, 444);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(72, 31);
+            this.panel20.Size = new System.Drawing.Size(122, 31);
             this.panel20.TabIndex = 29;
             // 
             // lblIva
             // 
             this.lblIva.AutoSize = true;
             this.lblIva.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIva.Location = new System.Drawing.Point(15, 6);
+            this.lblIva.Location = new System.Drawing.Point(41, 6);
             this.lblIva.Name = "lblIva";
             this.lblIva.Size = new System.Drawing.Size(44, 20);
             this.lblIva.TabIndex = 30;

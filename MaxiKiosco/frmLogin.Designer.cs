@@ -79,7 +79,7 @@ namespace MaxiKiosco
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(352, 19);
             this.txtUsuario.TabIndex = 1;
-            this.txtUsuario.Text = "javier123";
+            this.txtUsuario.Text = "Usuario";
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
@@ -112,7 +112,7 @@ namespace MaxiKiosco
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(352, 19);
             this.txtPass.TabIndex = 3;
-            this.txtPass.Text = "123";
+            this.txtPass.Text = "Contraseña";
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
             this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 

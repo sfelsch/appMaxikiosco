@@ -128,12 +128,7 @@ namespace MaxiKiosco
             this.Close();
         }
 
-        private void btnInventario_Click(object sender, EventArgs e)
-        {
-            FormContable pantalla = new FormContable();
-            pantalla.Show();
-            this.Close();
-        }
+      
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
@@ -144,6 +139,22 @@ namespace MaxiKiosco
                 btnAgregarUsuario.Enabled = false;
                 btnCompras.Enabled = false;
             }
+        }
+
+     
+
+        private void btnContable_Click_1(object sender, EventArgs e)
+        {
+            FormContable pantalla = new FormContable();
+            pantalla.Show();
+            this.Close();
+        }
+
+        private void btnInventario_Click(object sender, EventArgs e)
+        {
+            formInventario pantalla = new formInventario();
+            pantalla.Show();
+            this.Close();
         }
 
         private void panel1_MouseUp(object sender, MouseEventArgs e)
