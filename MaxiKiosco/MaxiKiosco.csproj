@@ -61,23 +61,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AltaCuentas.cs">
+    <Compile Include="Contable\CDB.cs" />
+    <Compile Include="Contable\FormBalance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AltaCuentas.Designer.cs">
-      <DependentUpon>AltaCuentas.cs</DependentUpon>
+    <Compile Include="Contable\FormBalance.Designer.cs">
+      <DependentUpon>FormBalance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Contable\FormConsultaLibroDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contable\FormConsultaLibroDiario.Designer.cs">
+      <DependentUpon>FormConsultaLibroDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\FormCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contable\FormCuentas.Designer.cs">
+      <DependentUpon>FormCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\FormDetalleCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contable\FormDetalleCuenta.Designer.cs">
+      <DependentUpon>FormDetalleCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\FormLibroDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contable\FormLibroDiario.Designer.cs">
+      <DependentUpon>FormLibroDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\FormLibroMayor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contable\FormLibroMayor.Designer.cs">
+      <DependentUpon>FormLibroMayor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\VariablesEstaticas.cs" />
     <Compile Include="FormContable.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormContable.Designer.cs">
       <DependentUpon>FormContable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formCuentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formCuentas.Designer.cs">
-      <DependentUpon>formCuentas.cs</DependentUpon>
     </Compile>
     <Compile Include="formFacturaA.cs">
       <SubType>Form</SubType>
@@ -102,12 +128,6 @@
     </Compile>
     <Compile Include="formInventario.Designer.cs">
       <DependentUpon>formInventario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formLibroDiario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formLibroDiario.Designer.cs">
-      <DependentUpon>formLibroDiario.cs</DependentUpon>
     </Compile>
     <Compile Include="formSeleccionClienteFacturacion.cs">
       <SubType>Form</SubType>
@@ -189,14 +209,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AltaCuentas.resx">
-      <DependentUpon>AltaCuentas.cs</DependentUpon>
+    <EmbeddedResource Include="Contable\FormBalance.resx">
+      <DependentUpon>FormBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contable\FormConsultaLibroDiario.resx">
+      <DependentUpon>FormConsultaLibroDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contable\FormCuentas.resx">
+      <DependentUpon>FormCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contable\FormDetalleCuenta.resx">
+      <DependentUpon>FormDetalleCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contable\FormLibroDiario.resx">
+      <DependentUpon>FormLibroDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contable\FormLibroMayor.resx">
+      <DependentUpon>FormLibroMayor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormContable.resx">
       <DependentUpon>FormContable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formCuentas.resx">
-      <DependentUpon>formCuentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formFacturaA.resx">
       <DependentUpon>formFacturaA.cs</DependentUpon>
@@ -209,9 +241,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formInventario.resx">
       <DependentUpon>formInventario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formLibroDiario.resx">
-      <DependentUpon>formLibroDiario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formSeleccionClienteFacturacion.resx">
       <DependentUpon>formSeleccionClienteFacturacion.cs</DependentUpon>

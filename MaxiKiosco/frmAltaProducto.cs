@@ -208,6 +208,24 @@ namespace MaxiKiosco
         private void trbPorcentajeGanancia_ValueChanged(object sender, EventArgs e)
         {
 
+            if (!string.IsNullOrEmpty(txtPrecioProveedor.Text))
+            {
+
+                decimal porcentajeGanancia = trbPorcentajeGanancia.Value;
+
+                lblPorcentajeGanancia.Text = $"{porcentajeGanancia}%";
+
+
+                decimal costoProducto = int.Parse(txtPrecioProveedor.Text);
+
+
+                decimal porcentajeDecimal = porcentajeGanancia / 100;
+                decimal ganancia = costoProducto * porcentajeDecimal;
+                decimal precioVenta = costoProducto + ganancia;
+
+
+                txtPrecio.Text = precioVenta.ToString();
+            }
         }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)

@@ -196,13 +196,10 @@ C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKi
 C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.AltaCuentas.resources
 C:\Users\cdt\Desktop\ultimaVersionMaxiquiosco\AppMaxikiosco\AppMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formLibroDiario.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.AssemblyReference.cache
-C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.AltaCuentas.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.FormContable.resources
-C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formCuentas.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formFacturaA.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formFacturaB.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formFacturacion.resources
-C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formLibroDiario.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formSeleccionClienteFacturacion.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmAltaUsuario.resources
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.frmInventario.resources
@@ -230,3 +227,9 @@ C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\bin\Debug\CapaDominio.pdb
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\bin\Debug\CapaNegocio.pdb
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.csproj.CopyComplete
 C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.formInventario.resources
+C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Contable.FormCuentas.resources
+C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Contable.FormLibroDiario.resources
+C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Contable.FormConsultaLibroDiario.resources
+C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Contable.FormDetalleCuenta.resources
+C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Contable.FormLibroMayor.resources
+C:\Users\cdt\Desktop\appMaxikiosco\MaxiKiosco\obj\Debug\MaxiKiosco.Contable.FormBalance.resources
